@@ -26,9 +26,9 @@ Food Delivery Dataset from Kaggle (45K+ orders, 15+ features): https://www.kaggl
 ## Results
 | Model | MAE (min) | RMSE | R2 |
 |---|---|---|---|
-| Ridge Regression | 4.81 | - | 0.56 |
+| Ridge Regression | 4.94 | 6.20 | 0.54 |
 | Gradient Boosting | 3.66 | 4.58 | 0.75 |
-| Random Forest (tuned) | 3.16 | 3.98 | 0.81 |
+| Random Forest (tuned) | 3.24 | 4.1 | 0.80 |
 
 Random Forest was selected as the final model because it gave the lowest error and the highest R2 on the same test split.
 
